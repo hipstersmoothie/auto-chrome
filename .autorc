@@ -1,0 +1,10 @@
+{
+  "repo": "auto-chrome",
+  "owner": "hipstersmoothie",
+  "noVersionPrefix": true,
+  "name": "Andrew Lisowski",
+  "email": "lisowski54@gmail.com",   
+  "plugins": [
+    "chrome"
+  ]
+}
