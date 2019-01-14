@@ -6,7 +6,7 @@
   "main": "background.js",
   "scripts": {
     "zip": "zip -jr extension.zip background.js manifest.json",
-    "release": "rm extension.zip && yarn zip && auto shipit"
+    "release": "rm -f extension.zip && yarn zip && auto shipit"
   },
   "license": "MIT",
   "devDependencies": {
