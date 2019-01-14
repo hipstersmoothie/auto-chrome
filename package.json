@@ -5,7 +5,8 @@
   "private": true,
   "main": "background.js",
   "scripts": {
-    "release": "auto shipit"
+    "zip": "zip -jr extension.zip background.js manifest.json",
+    "release": "rm extension.zip && yarn zip && auto shipit"
   },
   "license": "MIT",
   "devDependencies": {
