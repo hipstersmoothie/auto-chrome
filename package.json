@@ -10,6 +10,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "auto-release-cli": "^2.3.0"
+    "auto-release-cli": "../github-release-ts"
   }
 }
